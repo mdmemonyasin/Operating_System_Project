@@ -4,17 +4,17 @@
 int main() {
     int B_T[10],Process_no[10],W_T[10],T_A_T[10];
     int A_T[10],Prior[10],i,j,Number_of_Process,tot=0,flag,temp,Avg_W_T,Avg_T_A_T;
-    printf("Enter Number of Process:");
+    printf("Enter Number of Process:  ");
     scanf("%d",&Number_of_Process);
     printf("\nEnter Burst Time and Prior\n");
     for(i=0;i<Number_of_Process;i++)
     {
         printf("\nP[%d]\n",(i+1));
-        printf("Enter Burst Time:");
+        printf("Enter Burst Time:  ");
         scanf("%d",&B_T[i]);
-        printf("Enter Arrival Time:");
+        printf("Enter Arrival Time:  ");
         scanf("%d",&A_T[i]);
-        printf("Enter Prior:");
+        printf("Enter Prior:  ");
         scanf("%d",&Prior[i]);
         Process_no[i]=i+1;
     }
